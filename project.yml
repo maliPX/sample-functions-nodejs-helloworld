@@ -1,6 +1,7 @@
 packages:
+  - name: functions
     actions:
-        - name: hello
+      - name: hello
         runtime: 'nodejs:default'
-        - name: checkAppOwnership
+      - name: checkAppOwnership
         runtime: 'nodejs:default'
