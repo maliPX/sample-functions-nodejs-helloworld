@@ -3,3 +3,7 @@ packages:
     actions:
       - name: hello
         runtime: 'nodejs:default'
+  - name: test
+    actions:
+      - name: checkAppOwnership
+        runtime: 'nodejs:default'
